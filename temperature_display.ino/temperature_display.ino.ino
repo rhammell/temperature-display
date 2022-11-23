@@ -7,15 +7,15 @@
   A 128x32 OLED displays the current temperature along with a graph
   of the previous 24 hours of measurements. 
 
-  Hardware: 
+  Components: 
   * Adafruit Trinket M0
-  * TMP temperature sensor
+  * TMP36 temperature sensor
   * Monochrome OLED 128x32 display
 
   Circuit:
   * TMP36 VIN to Trinket M0 3V
-  * TMP36 center pin to Trinket M0 pin 4 (A4)
-  * TMP GND to Trinket M0 GND
+  * TMP36 VOUT to Trinket M0 pin 4 (A4)
+  * TMP36 GND to Trinket M0 GND
   * OLED SDA to Trinket M0 pin 0 (SDA) 
   * OLED SLC to Trinket M0 pin 2 (SLC) 
   * OLED VIN to Trinket M0 3V
