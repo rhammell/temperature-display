@@ -13,7 +13,9 @@ A 128x32 OLED displays the current temperature along with a graph of the previou
 - [Monochrome 128x32 I2C OLED display](https://www.adafruit.com/product/4440)
 
 ## Circuit  
-<img align="center" src="/temperature_display.png" width="600">
+<p align="center">
+  <img src="/temperature_display.png" width="600">
+</p>
 
 * TMP36 VIN to Trinket M0 3V
 * TMP36 VOUT to Trinket M0 pin 4 (A4)
