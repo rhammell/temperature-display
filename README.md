@@ -1,7 +1,7 @@
 # temperature-display
 An Arduino project that displays current and historic air temperature measurements.
 
-The included sketch programs a Trinket M0 to measure the air temperature every 15 minutes using a TMP36 temperature sensor. This measurement, along with a rolling graph of the previous 24 hours of measurments, are plotted on a connected I2C OLED display. 
+The `temperature_display.ino` Arudino sketch programs a Trinket M0 to capture air temperature measurements every 15 minutes using a TMP36 sensor. The latest measurement, along with a graph of the previous 24 hours of measurments, are shown on an I2C OLED display. 
 
 ## Components
 - [Adafruit Trinket M0](https://www.adafruit.com/product/3500)
